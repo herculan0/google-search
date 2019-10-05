@@ -1,4 +1,10 @@
 /* style.css */
 body {
-    -webkit-appearance: none;
+    text-align: center;
 }
+.center {
+    width: 60%;
+    margin: 0 auto;
+    text-align:left;
+}
+
