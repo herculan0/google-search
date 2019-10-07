@@ -3,63 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Google Home Page Clone</title>
-    <link href=style.css rel="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"  />
 </head>
 <body>
-<style>
+        <div class="nav-top">
+            <nav>
+                <a href="#gmail" class="nav-tp-rt">Gmail</a> 
+                <a href="#imagens" class="nav-tp-rt">Imagens</a>
+            </nav>
+        </div>
 
-.center {
-    display: block;
-    width: 272;
-    height: 92;
-    margin:0;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    margin-right: -50%;
-    -webkit-appearance: center;
-}
-.form {
-   display: block;
-    width: 272;
-    height: 92;
-    margin:0;
-    position: absolute;
-    top: 60%;
-    left:50%;
-    transform: translate(-60%, -60%);
-    margin-right: -60%;
-    -webkit-appearance: center;
-}
-ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    background-color:#333;
-}
-li {
-    float:left;
-}
-li a {
-    display:block;
-    color:white;
-    text-align:center;
-    padding:14px 16px;
-    text-decoration:none;
-}
-</style>
+        <div class="form">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo da Google">
+            
+            <div class="s-bar">
+                <form class="mid" action="search.php" method="get">
+                <input type="text" name="search" id="search" value="Pesquisa Google">
+                </form>
+            </div>
+            
+            <div class="buttons">
+                <input class="search" value="Pesquisa Google" aria-label="Pesquisa Google" name="pesquisa" type="submit">
+                <input class="lucky" value="Estou com Sorte" aria-label="Estou com Sorte" name="sorte" type="submit">
+            </div>
 
-   <ul>
-       <li><a href="home.asp">Home</li>
-       <li><a href="new.asp">News</li>
-       <li><a href="contact.asp">Contact</li>
-       <li><a href="about.asp">About</li>
-   </ul>
-        <img src="img/google.png"  alt="Google Logo" class="center">
-        <form class="form" action="search.php" method="get">
-            <input type="text" name="search" id="search" value="42">
-        </form>
+            <div class="cyber">
+                <img src="https://www.google.com/images/hpp/shield_security_checkup_green_2x_web_96dp.png" alt="chave">
+                <span>Mês da Cibersegurança: faça um <a href="#check">Checkup e fortaleça suas senhas salvas.</a></span>
+            </div>
+        </div>  
+    <footer>
+        <nav>
+            <a href="#ad" class="nav-bt-lf">Publicidade</a>
+            <a href="#bus" class="nav-bt-lf">Negócios</a>
+            <a href="#about" class="nav-bt-lf">Sobre</a>
+            <a href="#how" class="nav-bt-lf">Como funciona a Pesquisa</a>
+            <a href="#pri" class="nav-bt-rt">Privacidade</a>
+            <a href="#ter" class="nav-bt-rt">Termos</a>
+            <a href="#sett" class="nav-bt-rt">Configurações</a>
+        </nav>
+    </footer>
 </body>
 </html>

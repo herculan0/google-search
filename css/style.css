@@ -1,0 +1,18 @@
+body {
+    background: #ffffff;
+}
+div .form .logo img {
+    height: 92;
+    width: 272;
+}
+
+div.form {
+    text-align: -webkit-center;
+}
+div.nav-top {
+    float: right;
+}
+div .cyber img {
+    height: 48px;
+    width: 48px;
+}
