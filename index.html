@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Google Home Page Clone</title>
-    <link rel="text/css" href="css/style.css"/>
+    <link href=style.css rel="text/css" />
 </head>
 <body>
+<style>
+
+.center {
+    display: block;
+    width: 272;
+    height: 92;
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin-right: -50%;
+    -webkit-appearance: center;
+}
+.form {
+   display: block;
+    width: 272;
+    height: 92;
+    margin:0;
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-60%, -60%);
+    margin-right: -60%;
+    -webkit-appearance: center;
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333;
+}
+li {
+    float:left;
+}
+li a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+</style>
+
    <ul>
        <li><a href="home.asp">Home</li>
        <li><a href="new.asp">News</li>
@@ -13,7 +58,7 @@
        <li><a href="about.asp">About</li>
    </ul>
         <img src="img/google.png"  alt="Google Logo" class="center">
-        <form action="search.php" method="get">
+        <form class="form" action="search.php" method="get">
             <input type="text" name="search" id="search" value="42">
         </form>
 </body>
